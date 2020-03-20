@@ -4,7 +4,6 @@ import pickle
 import os
 import webbrowser
 
-
 # Global variables
 e1 = None
 e2 = None
