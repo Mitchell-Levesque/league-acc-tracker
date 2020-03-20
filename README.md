@@ -6,4 +6,5 @@ Any account information entered will be stored in /accdata/accdata.dat after lau
 ## How to Run
 1. clone repository
 2. run main.py
+
 Note: After running the first time, you will see a new folder "/accdata/" will be created
