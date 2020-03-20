@@ -305,3 +305,5 @@ if __name__ == "__main__":
 
     with open(file_path, 'wb') as datafile:
         pickle.dump(accountList, datafile)
+
+print("test")
