@@ -49,6 +49,7 @@ def addAccount():
     window.title("Add Account")
     window.grab_set()
     window.focus()
+    window.iconbitmap("icon.ico")
 
     tk.Label(window, text="Summoner Name", font=("Helvetica", 12), padx=15, pady=5).grid(row=0)
     tk.Label(window, text="Account Username", font=("Helvetica", 12), padx=15, pady=5).grid(row=1)
@@ -96,6 +97,7 @@ def editAccount():
     window.title("Edit Account")
     window.grab_set()
     window.focus()
+    window.iconbitmap("icon.ico")
 
     tk.Label(window, text="Summoner Name", font=("Helvetica", 12), padx=15, pady=5).grid(row=0)
     tk.Label(window, text="Account Username", font=("Helvetica", 12), padx=15, pady=5).grid(row=1)
